@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { useMemo, useState } from 'react';
-import { Menu, MenuProps, } from 'antd';
+import { Menu, MenuProps, Typography, } from 'antd';
 import Logo from '../../../imgs/logo.svg';
 import menu from './sidebar.config';
 import { path } from 'app/routes/path';
@@ -32,13 +32,11 @@ const Sidebar = () => {
           navigate(path.home);
           setCurrent('1');
         }}
-        className="logo-sidebar h-160px flex flex-items-center flex-justify-between text-center"
+        className="logo-sidebar h-160px flex flex-items-center flex-justify-center text-center"
       >
-        <img
-          className="cursor-pointer w-100% px-4 py-2 max-w-7rem mx-auto block pt-10"
-          src={Logo}
-          alt="logo"
-        />
+        <Typography.Title level={2} className='!text-center !color-white'>
+          Mah Daily 
+        </Typography.Title>
 
 
       </div>

@@ -6,7 +6,7 @@ function LayoutMain() {
   return (
     <Layout>
       <Sidebar />
-      <Layout.Content className="layout-content ml-320px h-layout">
+      <Layout.Content className="layout-content ml-320px h-screen">
         <div className="p-2 h-100%">
           <div className="p-4 rd-6 bg-white h-full w-100%">
             <Outlet />

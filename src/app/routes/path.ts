@@ -3,7 +3,8 @@ export const path = {
   account: '/account',
   aboutUs: '/about-us',
   createWork: '/:type/create',
-
+  dailyWishList: '/daily-wish-list',
+  schedule: '/schedule',
   login: '/login',
   comic: 'comic',
   novel: 'novel',

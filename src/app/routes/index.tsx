@@ -1,6 +1,5 @@
 import {
   Route,
-  RouteObject,
   createBrowserRouter,
   createRoutesFromElements,
 } from 'react-router-dom';
@@ -11,7 +10,7 @@ import Dashboard from 'app/pages/Dashboard/Loadable';
 
 import { path } from './path';
 import { AccountList } from 'app/pages/Account/List/AccountList';
-
+import DailyWishList from 'app/pages/DailyWishList';
 
 
 export default function Routes() {
@@ -22,6 +21,8 @@ export default function Routes() {
         <Route path="/" element={<Layout />} >
           <Route path={path.home} index element={<Dashboard />} />
           <Route path={path.account} index element={<AccountList />} />
+          <Route path={path.dailyWishList} index element={<DailyWishList />} />
+
         </Route>
 
         {/* ... etc. */}

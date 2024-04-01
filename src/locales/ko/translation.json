@@ -26,7 +26,8 @@
     "signIn": "Sign In"
   },
   "menu": {
-    "dailyWishList":"Daily wish list"
+    "dailyWishList":"Daily wish list",
+    "schedule": "Schedule"
   },
   "login": {
     "username": "Username",

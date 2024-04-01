@@ -23,11 +23,13 @@ const renderApp = () => {
             },
             Menu: {
               itemHeight: 60,
-              fontSize: 20,
+              fontSize: 24,
               fontSizeLG: 24,
               iconMarginInlineEnd: 16,
               itemBg:'#514D9E',
-              itemColor: '#fff'
+              itemColor: '#ffffff6e',
+              itemHoverColor: '#fff',
+              itemHoverBg: '#ffffff00'
             },
 
           },

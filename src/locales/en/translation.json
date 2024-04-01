@@ -20,8 +20,9 @@
       "PRIVATE": "공개"
     }
   },
-  "menu":{
-    "dailyWishList":"Daily wish list"
+  "menu": {
+    "dailyWishList": "Daily wish list",
+    "schedule": "Schedule"
   },
   "login": {
     "username": "Username",

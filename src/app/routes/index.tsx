@@ -20,7 +20,7 @@ export default function Routes() {
         <Route path={path.login} element={<Login />} />
         <Route path="/" element={<Layout />} >
           <Route path={path.home} index element={<Dashboard />} />
-          <Route path={path.account} index element={<AccountList />} />
+          <Route path={path.schedule} index element={<AccountList />} />
           <Route path={path.dailyWishList} index element={<DailyWishList />} />
 
         </Route>

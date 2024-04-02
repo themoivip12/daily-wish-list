@@ -25,7 +25,7 @@ const Sidebar = () => {
 
   return (
     <div
-      style={{ height: '100vh', width: '320px', position: 'fixed' }}
+      className='h-screen w-320px fixed'
     >
       <div
         onClick={() => {
@@ -34,15 +34,14 @@ const Sidebar = () => {
         }}
         className="logo-sidebar h-160px flex flex-items-center flex-justify-center text-center"
       >
-        <Typography.Title level={2} className='!text-center !color-white'>
-          Mah Daily 
+        <Typography.Title level={3} className='!text-center !color-white'>
+          MalđDaily 
         </Typography.Title>
 
 
       </div>
       <Menu
         onClick={onClickMenu}
-
         selectedKeys={[current]}
         mode="vertical"
         className="menu-sidebar mt-8 font-500"

@@ -22,21 +22,25 @@ const renderApp = () => {
               colorBgBody: '#514D9E'
             },
             Menu: {
-              itemHeight: 60,
-              fontSize: 24,
+              itemPaddingInline: "48px",
+              itemHeight: 48,
+              fontSize: 20,
               fontSizeLG: 24,
               iconMarginInlineEnd: 16,
               itemBg:'#514D9E',
               itemColor: '#ffffff6e',
               itemHoverColor: '#fff',
-              itemHoverBg: '#ffffff00'
+              itemHoverBg: '#ffffff00',
+              itemSelectedBg: '#ffffff00',
+              itemSelectedColor: '#fff',
+              itemActiveBg: '#ffffff00',
             },
 
           },
           // Seed Token
           token: {
             // Seed Token
-            colorPrimary: '#164e63',
+            colorPrimary: '#514D9E',
 
             // Alias Token
             colorBgElevated: '#514D9E',

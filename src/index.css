@@ -26,6 +26,20 @@ code {
 .ant-menu-item {
   display: flex !important;
   align-items: center !important;
+  padding: 0 !important;
+  margin: 20px 0!important;
+  border-radius: 0 !important;
+  /* position: relative !important; */
+}
+.ant-menu-item-selected::before{
+  height: 100%;
+  width: 12px;
+  background-color: white;
+  content: '';
+  border-radius: 0 8px 8px 0;
+  position: absolute;
+  left:  0;
+  top: 0;
 }
 
 .h-layout{

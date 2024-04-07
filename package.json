@@ -19,6 +19,7 @@
     "@unocss/preset-icons": "^0.53.5",
     "antd": "^5.16.0",
     "axios": "^1.4.0",
+    "dayjs": "^1.11.10",
     "fs": "^0.0.1-security",
     "i18next": "^23.2.11",
     "i18next-browser-languagedetector": "^7.1.0",
